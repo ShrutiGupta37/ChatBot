@@ -15,8 +15,13 @@ nltk.download('punkt')
 
 # Load intents from the JSON file
 file_path = os.path.abspath("ChatBot\\intents.json")
-with open(file_path, "r") as file:
-    intents = json.load(file)
+try:
+    with open(file_path, "r") as file:
+        intents = json.load(file)
+except FileNotFoundError:
+    st.error(f"File not found at: {file_path}")
+except Exception as e:
+    st.error(f"An error occurred: {e}")
 
 # Create the vectorizer and classifier
 vectorizer = TfidfVectorizer(ngram_range=(1, 4))
