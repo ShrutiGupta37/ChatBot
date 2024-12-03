@@ -2,7 +2,7 @@
     {
         "tag": "greeting",
         "patterns": [
-            "Hi",
+            "Hi","hii",
             "Hello",
             "Hey",
             "How are you",
@@ -44,8 +44,8 @@
             "What can you do?",
             "Who are you?",
             "What are you?",
-            "What is your purpose?",
-            "Can you tell me about yourself?",
+            "your purpose?",
+            "about yourself?",
             "How can you help with breast cancer?"
         ],
         "responses": [
@@ -61,8 +61,7 @@
         "patterns": [
             "Help",
             "I need help",
-            "Can you help me",
-            "What should I do"
+            "Can you help me"
         ],
         "responses": [
             "Sure, what do you need help with?",
@@ -74,7 +73,7 @@
     {
         "tag": "name",
         "patterns": [
-            "What's your name",
+            "your name",
             "Do you have a name",
             "What should I call you"
         ],
@@ -96,22 +95,38 @@
         ]
     },
     {
+        "tag": "definition",
+        "patterns": [
+          "What is breast cancer?",
+          "Tell me about breast cancer",
+          "What do you mean by breast cancer?"
+        ],
+        "response": [
+          "Breast cancer is a type of cancer that begins in the cells of the breast. It is more common in women but can also affect men."
+        ]
+      },
+    {
         "tag": "positivity",
         "patterns": [
             "Spread some positivity",
-            "Tell me a positive quote",
-            "How to stay positive"
+            "a positive quote",
+            "stay positive",
+             "Inspirational quotes",
+            "Motivational sayings"
         ],
         "responses": [
             "Every day is a new opportunity to make a positive impact. You are capable of great things!",
-            "Remember, you are strong, resilient, and capable of overcoming challenges."
+            "Remember, you are strong, resilient, and capable of overcoming challenges.",
+            "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
+            "In the middle of every difficulty lies opportunity. - Albert Einstein",
+            "Your time is limited, don't waste it living someone else's life. - Steve Jobs"
         ]
     },
     {
         "tag": "self_improvement",
         "patterns": [
             "How to improve myself",
-            "Tell me about personal growth",
+            "about personal growth",
             "Tips for self-development"
         ],
         "responses": [
@@ -122,8 +137,8 @@
     {
         "tag": "self_care",
         "patterns": [
-            "Tell me about self-care",
-            "How to practice self-care",
+            "self-care",
+            "practice self-care",
             "Importance of self-love"
         ],
         "responses": [
@@ -131,30 +146,16 @@
             "Prioritizing self-care can lead to improved overall health and a more balanced lifestyle."
         ]
     },
-    {
-        "tag": "positivity_quotes",
-        "patterns": [
-            "Tell me a positive quote",
-            "Inspirational quotes",
-            "Motivational sayings"
-        ],
-        "responses": [
-            "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
-            "In the middle of every difficulty lies opportunity. - Albert Einstein",
-            "Your time is limited, don't waste it living someone else's life. - Steve Jobs"
-        ]
-    },
-
+ 
 
 
     
     {
         "tag": "symptoms",
         "patterns": [
-            "What are the symptoms of breast cancer?",
-            "How do I know if I have breast cancer?",
-            "Signs of breast cancer",
-            "Symptoms of breast cancer"
+            "symptoms of breast cancer?",
+            "How to know if I have breast cancer?",
+            "Signs of breast cancer"
         ],
         "responses": [
             "Common symptoms include a lump in the breast or underarm, changes in breast shape, dimpling of the skin, and nipple discharge.",
@@ -164,9 +165,8 @@
     {
         "tag": "causes",
         "patterns": [
-            "What causes breast cancer?",
-            "Why does breast cancer occur?",
-            "Causes of breast cancer"
+            "causes breast cancer?",
+            "Why does breast cancer occur?"
         ],
         "responses": [
             "Breast cancer can be caused by genetic factors, hormonal changes, lifestyle choices, and environmental influences.",
@@ -189,7 +189,7 @@
     {
         "tag": "prevention",
         "patterns": [
-            "How can breast cancer be prevented?",
+            "How to prevent?",
             "What can I do to prevent breast cancer?",
             "Tips to avoid breast cancer"
         ],
@@ -201,8 +201,8 @@
     {
         "tag": "early_detection",
         "patterns": [
-            "Why is early detection important?",
-            "How does early detection help?",
+            "Why early detection important?",
+            "How early detection help?",
             "Benefits of detecting breast cancer early"
         ],
         "responses": [
@@ -213,9 +213,9 @@
     {
         "tag": "myths",
         "patterns": [
-            "What are some myths about breast cancer?",
+            "some myths about breast cancer?",
             "Is it true that only women get breast cancer?",
-            "Can wearing a bra cause breast cancer?"
+            "wearing a bra cause breast cancer?"
         ],
         "responses": [
             "Common myths include: 'Only women get breast cancer' (men can too) and 'Antiperspirants cause breast cancer' (there is no evidence to support this).",
@@ -225,8 +225,8 @@
     {
         "tag": "mammograms",
         "patterns": [
-            "What is a mammogram?",
-            "How does a mammogram work?",
+            "mammogram?",
+            "How mammogram work?",
             "When should I get a mammogram?"
         ],
         "responses": [
@@ -237,9 +237,9 @@
     {
         "tag": "genetic_testing",
         "patterns": [
-            "What is genetic testing for breast cancer?",
+            "genetic testing for breast cancer?",
             "Should I get tested for BRCA genes?",
-            "How can I check my genetic risk for breast cancer?"
+            "How to check genetic risk for breast cancer?"
         ],
         "responses": [
             "Genetic testing looks for mutations in genes like BRCA1 and BRCA2 that increase breast cancer risk. It is recommended for those with a strong family history.",
@@ -249,9 +249,9 @@
     {
         "tag": "awareness",
         "patterns": [
-            "What is breast cancer awareness month?",
-            "Why is the pink ribbon important?",
-            "Can you tell me about breast cancer awareness campaigns?"
+            "breast cancer awareness month?",
+            "pink ribbon important?",
+            "breast cancer awareness campaigns?"
         ],
         "responses": [
             "Breast Cancer Awareness Month is observed in October to promote early detection and support research and funding.",
@@ -261,9 +261,9 @@
     {
         "tag": "side_effects",
         "patterns": [
-            "What are the side effects of breast cancer treatment?",
-            "How does chemotherapy affect the body?",
-            "Are there side effects of radiation therapy?"
+            "side effects of breast cancer treatment?",
+            "chemotherapy affect the body?",
+            "side effects of radiation therapy?"
         ],
         "responses": [
             "Common side effects include fatigue, hair loss, nausea, and skin changes. Radiation can cause localized irritation, and hormonal therapy may lead to hot flashes or bone thinning.",
@@ -284,15 +284,15 @@
     },
     {
         "tag": "emotional_support",
-        "patterns": ["I'm scared.", "I feel anxious about my results."],
+        "patterns": ["I'm scared.", "I feel anxious","i am worried"],
         "responses": ["It's normal to feel this way. Remember, you're not alone in this."]
     },
     
     {
         "tag": "machine_learning",
         "patterns": [
-            "What machine learning algorithm did you use?",
-            "How does machine learning help in detecting breast cancer?",
+            "machine learning algorithm did you use?",
+            "How machine learning help in detecting breast cancer?",
             "What role does AI play in this project?"
         ],
         "responses": [
@@ -303,67 +303,67 @@
     },
         {
             "tag": "world_indian_stats",
-            "patterns": ["What are global stats on breast cancer?", "How common is breast cancer in India?","India breast cancer number?","world breast cancer number?"],
+            "patterns": ["global stats on breast cancer?", "How common is breast cancer in India?","India breast cancer number?","world breast cancer number?","Breast cancer in india"],
             "responses": ["Globally, breast cancer accounts for 12% of all cancer cases. In India, it contributes to 14% of cancers among women."]
         },
         {
             "tag": "technology_use",
-            "patterns": ["What technologies are used in detection?", "How does AI help in breast cancer?","what technology is used?","how it's working"],
+            "patterns": ["technologies used in detection?", "How AI help?","what technology is used?","how it's working"],
             "responses": ["AI and ML enhance early detection through pattern recognition in medical data."]
         },
         {
             "tag": "accuracy",
-            "patterns": ["How accurate is your model?", "Can I trust the results?","is it valid to use?"],
+            "patterns": ["How accurate is your model?", "Can I trust the results?","is it valid to use?","accuracy"],
             "responses": ["The XGBoost model has an accuracy of 98.2%. Consult a doctor for final confirmation."]
         },
         {
             "tag": "how_to_use",
-            "patterns": ["How do I use this chatbot?", "What data do I need?","how to use?"],
+            "patterns": ["how to use this chatbot?", "What data do I need?","how to use?","how to use"],
             "responses": ["Provide medical test results when prompted, such as mean radius and mean texture."]
         },
         {
             "tag": "history",
-            "patterns": ["When was breast cancer first studied?", "How has treatment evolved?","history"],
+            "patterns": ["breast cancer first studied", "How treatment evolved?","history"],
             "responses": ["Breast cancer was known since ancient Egypt, with modern treatments evolving in the 20th century."]
         },
         {
             "tag": "pink_ribbon",
-            "patterns": ["What does the pink ribbon mean?", "Why is it a symbol?","breast cancer symbol","what is pink ribbon?"],
+            "patterns": ["What the pink ribbon mean?", "Why is it a symbol?","breast cancer symbol","what is pink ribbon?"],
             "responses": ["The pink ribbon symbolizes breast cancer awareness, introduced in 1992 to support the cause."]
         },
             {
                 "tag": "risk_factors",
-                "patterns": ["What are the risk factors for breast cancer?", "Who is at risk?","risk"],
+                "patterns": ["risk factors for breast cancer?", "Who is at risk?","risk"],
                 "responses": ["Risk factors include family history, age, obesity, and genetic mutations like BRCA1 and BRCA2."]
             },
             {
                 "tag": "self_examination",
-                "patterns": ["How do I check for lumps?", "How to perform a self-breast exam?","how to check"],
+                "patterns": ["How do I check for lumps?", "a self-breast exam?","how to check","how to check lumps"],
                 "responses": ["Perform a self-exam monthly. Look for changes in size, shape, or texture and feel for lumps."]
             },
             {
                 "tag": "treatment_options",
-                "patterns": ["What are the treatments for breast cancer?", "How is it treated?","treatment"],
+                "patterns": ["treatments for breast cancer", "How is it treated?","treatment","solution"],
                 "responses": ["Treatments include surgery, chemotherapy, radiation, and targeted therapy."]
             },
             {
                 "tag": "diet_lifestyle",
-                "patterns": ["What foods can prevent breast cancer?", "How can I reduce my risk?","diet","what should i eat?"],
+                "patterns": ["foods prevent breast cancer", "reduce my risk?","diet","what should i eat?"],
                 "responses": ["Maintain a healthy weight, eat a diet rich in fruits and vegetables, and exercise regularly."]
             },
             {
                 "tag": "types",
-                "patterns": ["What are the types of breast cancer?", "Tell me about invasive breast cancer.","types of breast cancer"],
+                "patterns": ["What are the different types of breast cancer?", "Tell me about invasive breast cancer.","types of breast cancer"],
                 "responses": ["Types include ductal carcinoma, lobular carcinoma, and triple-negative breast cancer."]
             },   {
                 "tag": "support_groups",
-                "patterns": ["Are there any support groups for breast cancer?", "Where can I find emotional support?", "Tell me about support for breast cancer patients."],
+                "patterns": ["Are there any support groups for breast cancer?", "Where can I find emotional support?", "Tell me about support for breast cancer patients.","emotional support"],
                 "responses": ["There are many support groups, such as Breast Cancer Network and Survivor Circles.", "Join organizations like the National Breast Cancer Foundation for resources and community support."]
             },
             {
                 "tag": "survival_rates",
                 "patterns": [
-                    "What are the survival rates for breast cancer?",
+                    "survival rates for breast cancer?",
                     "How likely am I to survive breast cancer?",
                     "What affects breast cancer survival rates?"
                 ],
@@ -375,9 +375,9 @@
             {
                 "tag": "data_preprocessing",
                 "patterns": [
-                    "How was the data prepared for training?",
-                    "What preprocessing steps were used in this project?",
-                    "Can you explain the data cleaning process?"
+                    "How the data prepared for training?",
+                    "preprocessing steps used in this project?",
+                    "explain the data cleaning process?"
                 ],
                 "responses": [
                     "The data was cleaned by removing missing or irrelevant values and ensuring consistent formatting.",
@@ -388,9 +388,9 @@
             {
                 "tag": "limitations",
                 "patterns": [
-                    "What are the limitations of this project?",
-                    "Are there any drawbacks to the breast cancer detection system?",
-                    "What challenges does this system face?"
+                    "the limitations of this project?",
+                    "drawbacks to the breast cancer detection system?",
+                    "challenges this system face?"
                 ],
                 "responses": [
                     "The model's accuracy depends on the quality of input data and may not perform well on unseen data with different patterns.",
