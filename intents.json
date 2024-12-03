@@ -153,6 +153,7 @@
     {
         "tag": "symptoms",
         "patterns": [
+            "symptoms",
             "symptoms of breast cancer?",
             "How to know if I have breast cancer?",
             "Signs of breast cancer"
