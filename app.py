@@ -48,7 +48,7 @@ counter = 0
 
 def main():
     global counter
-    st.title("Intents of Chatbot using NLP")
+    st.markdown('<h1 style="color: pink; text-align: center; font-size: 36px;">Chatbot for Breast Cancer</h1>', unsafe_allow_html=True)
 
     # Create a sidebar menu with options
     menu = ["Home", "Conversation History", "About"]
@@ -73,7 +73,7 @@ def main():
             user_input_str = str(user_input)
 
             response = ChatBot(user_input)
-            st.text_area("Chatbot:", value=response, height=120, max_chars=None, key=f"chatbot_response_{counter}")
+            st.text_area("ChatBot:", value=response, height=120, max_chars=None, key=f"chatbot_response_{counter}")
 
             # Get the current timestamp
             timestamp = datetime.datetime.now().strftime(f"%Y-%m-%d %H:%M:%S")
