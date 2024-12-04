@@ -65,7 +65,7 @@ def main():
             <div style="display: flex; justify-content: center;">
                 <img src="https://static.vecteezy.com/system/resources/previews/023/480/009/original/breast-cancer-awareness-symbol-pink-ribbon-isolated-on-black-background-vector.jpg" 
                  alt="Breast Cancer Awareness" 
-                 style="width: 300px;">
+                 style="width: 200px;">
              </div>
             """,
             unsafe_allow_html=True
