@@ -50,7 +50,6 @@ def main():
     global counter
     st.markdown('<h1 style="color: pink; text-align: center; font-size: 36px;">Chatbot for Breast Cancer</h1>', unsafe_allow_html=True)
     # Add an image from a URL
-    st.image("https://static.vecteezy.com/system/resources/previews/023/480/009/original/breast-cancer-awareness-symbol-pink-ribbon-isolated-on-black-background-vector.jpg", caption="This is an online image",width=300)
 
 
 
@@ -61,7 +60,16 @@ def main():
     # Home Menu
     if choice == "Home":
         st.write("Welcome to the chatbot. Please type a message and press Enter to start the conversation.")
-
+        st.markdown(
+            """
+            <div style="display: flex; justify-content: center;">
+                <img src="https://static.vecteezy.com/system/resources/previews/023/480/009/original/breast-cancer-awareness-symbol-pink-ribbon-isolated-on-black-background-vector.jpg" 
+                 alt="Breast Cancer Awareness" 
+                 style="width: 300px;">
+             </div>
+            """,
+            unsafe_allow_html=True
+            )
         # Check if the chat_log.csv file exists, and if not, create it with column names
         if not os.path.exists('ChatBot\chat_log.csv'):
             with open('ChatBot\chat_log.csv', 'w', newline='', encoding='utf-8') as csvfile:
