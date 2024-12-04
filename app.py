@@ -48,8 +48,11 @@ counter = 0
 
 def main():
     global counter
-    st.markdown('<h1 style="color: pink; text-align: center; font-size: 36px;">Chatbot for Breast Cancer</h1>', unsafe_allow_html=True)
-
+    st.markdown('''
+<div style="background-color: #ffe6f0; padding: 10px; border-radius: 10px;">
+    <h1 style="color: #d63384; text-align: center;">Chatbot for Breast Cancer</h1>
+</div>
+''', unsafe_allow_html=True)
     # Create a sidebar menu with options
     menu = ["Home", "Conversation History", "About"]
     choice = st.sidebar.selectbox("Menu", menu)
