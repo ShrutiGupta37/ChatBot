@@ -49,7 +49,7 @@ counter = 0
 def main():
     global counter
     st.markdown(
-    """<style> body {background: linear-gradient(to right, #ffcccc, #ff99cc);color: black;  /* Ensure text is readable */
+    """<style> body {background: linear-gradient(to right, #ffcccc, #ff99cc);color: pink;  /* Ensure text is readable */
     }</style>""",unsafe_allow_html=True)
     st.markdown('<h1 style="color: pink; text-align: center; font-size: 36px;">Chatbot for Breast Cancer</h1>', unsafe_allow_html=True)
 
