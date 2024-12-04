@@ -48,7 +48,7 @@ counter = 0
 
 def main():
     global counter
-     st.markdown(
+    st.markdown(
             """
             <div style="display: flex; justify-content: center;">
                 <img src="https://static.vecteezy.com/system/resources/previews/023/480/009/original/breast-cancer-awareness-symbol-pink-ribbon-isolated-on-black-background-vector.jpg" 
