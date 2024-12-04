@@ -50,7 +50,7 @@ def main():
     global counter
     st.markdown('<h1 style="color: pink; text-align: center; font-size: 36px;">Chatbot for Breast Cancer</h1>', unsafe_allow_html=True)
     # Add an image from a URL
-    st.image("https://static.vecteezy.com/system/resources/previews/023/480/009/original/breast-cancer-awareness-symbol-pink-ribbon-isolated-on-black-background-vector.jpg", caption="This is an online image", use_column_width=True)
+    st.image("https://static.vecteezy.com/system/resources/previews/023/480/009/original/breast-cancer-awareness-symbol-pink-ribbon-isolated-on-black-background-vector.jpg", caption="This is an online image",width=300)
 
 
 
